@@ -57,7 +57,7 @@ const config = {
           remarkPlugins: [math],
           rehypePlugins: [katex],
           routeBasePath: "/",
-          path: "../Skola/LTU"
+          path: "Obsidian-Main-Vault/Skola/LTU"
         },
         blog: false,
         // blog: {
