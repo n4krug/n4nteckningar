@@ -21,7 +21,7 @@ yarn-error.log*
 
 /docs/*
 /docs/**
-/static/Excalidraw
+/static/Excalidraw/*
 
 /~
 /~/*
