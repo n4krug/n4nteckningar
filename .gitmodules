@@ -1,0 +1,3 @@
+[submodule "Obsidian-Main-Vault"]
+	path = Obsidian-Main-Vault
+	url = git@github.com:n4krug/Obsidian-Main-Vault.git
