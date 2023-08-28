@@ -6,9 +6,17 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 const math = require('remark-math');
 const katex = require('rehype-katex');
+const path = require('path')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+  // plugins: [
+  //   () => ({
+  //     configureWebpack() {
+  //       return { resolve: { symlinks: false } };
+  //     },
+  //   }),
+  // ],
   title: 'n4nteckningar',
   tagline: 'Mina anteckningar från kurser på LTU',
   favicon: 'img/favicon.ico',
@@ -48,8 +56,10 @@ const config = {
           //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           remarkPlugins: [math],
           rehypePlugins: [katex],
-
+          routeBasePath: "/",
+          path: "../Skola/LTU"
         },
+        blog: false,
         // blog: {
         //   showReadingTime: true,
         //   // Please change this to your repo.
